@@ -1,6 +1,6 @@
-// string , number , float , boolean
+// string = number = float = boolean
 // console.log(abc)
-// var , let , const
+// var = let = const
 // var fname="Salar";
 // var lname="Butt";
 // console.log(fname + lname);

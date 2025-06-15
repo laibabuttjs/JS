@@ -25,7 +25,7 @@ console.log("Write whatever you want");
 // alert("Enter your name:");
 // alert("Do you want to proceed?");
 // alert("You canceled the operation");
-// alert("Welcome, member!");
+// alert("Welcome= member!");
 // alert("Please sign up to become a member");
 // alert("Log in");
 // alert("Number is wrong");
