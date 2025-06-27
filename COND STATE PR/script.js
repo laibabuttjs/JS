@@ -218,3 +218,49 @@
 // else{
 //     console.log("Not eligible for senior discount");
 // }
+
+// let ch = prompt("Enter a character")
+
+// if(ch >= "A" && ch <= "Z"){
+//     console.log("Uppercase letter");
+// }
+// else if(ch >= "a" && ch <= "z"){
+//     console.log("Lowercase letter");
+// }
+// else if(ch >= 0 && ch <= 9){
+//     console.log("Digit");
+// }
+// else{
+//     console.log("Other character");
+// }
+
+// let age = prompt ("Enter your age");
+// let day = prompt ("Enter a day");
+// let price;
+
+// if(age <= 30){
+//     price = 10;
+// }
+// else if(age <= 20){
+//     price = 8;
+// }
+// else{
+//     price = 20;
+// }
+// console.log("Ticket price: $" + price);
+
+// let n = prompt("Enter a number")
+
+// if(n % 2 == 0){
+//     console.log("Divisible by 2");
+// }
+// else if(n % 3 == 0){
+//     console.log("Divisible by 3");
+// }
+// else if(n % 5 == 0){
+//     console.log("Divisible by 5");
+// }
+// else{
+//     console.log("Not divisible by 2, 3, or 5");
+// }
+
