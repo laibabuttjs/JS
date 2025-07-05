@@ -217,43 +217,106 @@ let numr = (r) =>{
 }
 console.log(numr(4));
 
-// 31. Create a function that adds 3 numbers together.
-
-// 32. Write a function that subtracts 3 numbers (a - b - c).
-
 // 33. Make a function that takes one number and returns its negative.
+let nums = (s) =>{
+    return - (s);
+}
+console.log(nums(6));
 
 // 34. Create a function that checks if a number is odd.
-
-// 35. Write a function that checks if a number is even.
-
-// 36. Make a function that returns the absolute value of a number (if negative, return positive).
+let numt = (t) =>{
+    if(t % 2 !== 0){
+        return "Odd number"
+    }
+    else{
+        return "Not odd"
+    }
+}
+console.log(numt(7));
 
 // 37. Create a function that returns 1 if the number is positive, 0 if it's 0, -1 if negative.
+let numu = (u) =>{
+    if(u > 0){
+        return 1;
+    }
+    else if(u == 0){
+        return 0;
+    }
+    else if(u < 0){
+        return -1;
+    }
+    else{
+        return "Other"
+    }
+}
+console.log(numu(0));
 
 // 38. Write a function that returns the remainder when divided by 3.
+let numv = (v) =>{
+    return v % 3;
+}
+console.log(numv(17));
 
 // 39. Create a function that multiplies a number by 10.
+let numw = (w) =>{
+    return w * 10;
+}
+console.log(numw(5));
 
 // 40. Make a function that adds 100 to any number.
+let numy = (y) =>{
+    return y + 100;
+}
+console.log(numy(6));
 
 // 41. Write a function that returns true if two values are not equal.
+let numz = (z,n) =>{
+    if(z !== n){
+        return true;
+    }
+    else{
+        return "Both are equal"
+    }
+}
+console.log(numz(6,9));
 
 // 42. Create a function that adds 2 to a number and checks if result is greater than 10.
-
-// 43. Make a function that returns the square root of a number using Math.sqrt.
+let vala = (a) =>{
+    return (a + 2) > 10;
+}
+console.log(vala(14));
 
 // 44. Write a function that returns the cube of a number.
+let valb = (b) =>{
+    return b ** 3;
+}
+console.log(valb(2));
 
 // 45. Create a function that returns the result of (a + b) * c.
+let valc = (a,b,c) =>{
+    return (a + b) * c;
+}
+console.log(valc(8,2,5));
 
 // 46. Write a function that returns true if a number is between 50 and 100.
+let vald = (d) =>{
+    if(d > 50 && d < 100){
+        return true;
+    }
+    else{
+        return "It's not between 50-100"
+    }
+}
+console.log(vald(76));
 
 // 47. Create a function that subtracts 5 from a number and returns whether the result is positive.
+let vale = (e) =>{
+    return (e - 5) > 0;
+}
+console.log(vale(14));
 
 // 48. Make a function that returns true if the number is a multiple of 5.
-
-// 49. Write a function that takes two numbers and returns the greater one.
-
-// 50. Create a function that takes two numbers and returns the smaller one.
-
+let valf = (f) =>{
+    return f % 5 == 0;
+}
+console.log(valf(15));
