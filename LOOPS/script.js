@@ -33,3 +33,45 @@
 //     num--;
 // }
 // while(num >= 1);
+
+// Count and print how many numbers between 1 and 100 are divisible by 5.
+// let count = 0;
+// for (n = 1; n <= 100; n++){
+//     if(n %5 === 0){
+//         console.log(`${n}`);
+//         count++;
+//     }
+// }
+
+// Print the factorial of a number n (e.g., 5! = 120).
+// let num = 10;
+// let fact = 1;
+// for(let x = num; x >= 1; x--)
+// {
+//     fact = fact * x;
+// }
+// console.log(fact);
+
+// Find the sum of all odd numbers from 1 to 50.
+// let sum = 0;
+// for (x = 1; x <= 50; x++)
+// {
+//     if(x %2 !== 0){
+//         sum = sum + x;
+//     }
+// }
+// console.log(sum);
+
+// for(i = 1; i <= 50; i++)
+// {
+//     if(i %5 === 0){
+//         console.log(i);
+//     }
+// }
+
+// for(i = 1; i <= 50; i++)
+// {
+//     if(i %5 !== 0){
+//         console.log(i);
+//     }
+// }
